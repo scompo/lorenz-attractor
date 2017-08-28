@@ -96,7 +96,7 @@ require(["js/vector"], function(vector) {
         renderer.render(scene, camera);
     }
 
-    function rotateCamera() {
+    function rotateCamera(event) {
 
         if (event.keyCode == 37) {
             // Left key
